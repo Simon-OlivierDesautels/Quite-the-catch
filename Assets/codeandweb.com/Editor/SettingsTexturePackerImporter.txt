@@ -1,0 +1,9 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/_project/Graphics/Sprites/Tommy/Tommy.tpsheet
+textureFileNames:
+- Assets/_project/Graphics/Sprites/Tommy/Tommy.png
+normalmapFileNames:
+- 
+enableDebugOutput: 0
