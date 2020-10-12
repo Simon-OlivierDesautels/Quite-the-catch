@@ -7,14 +7,23 @@ public class Human : MonoBehaviour
 {
 //    public string PlayerControls => _controlHorizontal; could be private or deleted
     public float PlayerAxis => _playerAxis;
-    
-    [Header("Controls info")] 
-    [SerializeField] private PlayerNumber _playerNumber;
-    [Header("Running")] 
-    [SerializeField] int _speed;
-    [Header("Jumping")] 
-    [SerializeField] [Range(0, 10)] int _jumpForce;
+
+    public bool Running
+    {
+        set => _isRunning = value;
+    }
+
+
+    [Header("Controls info")] [SerializeField]
+    private PlayerNumber _playerNumber;
+
+    [Header("Running")] [SerializeField] int _speed;
+
+    [Header("Jumping")] [SerializeField] [Range(0, 10)]
+    int _jumpForce;
+
     [SerializeField] private LayerMask _groundMask;
+
     [Header("Debug")] [SerializeField] private bool _debug;
     [SerializeField] private float _gizmosLength;
     [SerializeField] private Vector3 colliderOffset;
@@ -28,7 +37,8 @@ public class Human : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
     private string _controlHorizontal;
     private float _playerAxis;
-    private bool isGrounded;
+    private bool _isGrounded;
+    private bool _isRunning;
 
     protected virtual void Awake()
     {
@@ -48,6 +58,8 @@ public class Human : MonoBehaviour
 
     protected void HorizontalMovement()
     {
+        if (_isRunning) _speed = 7;
+        else _speed = 3;
         _playerAxis = Input.GetAxis(_controlHorizontal);
         float _deltaX = Input.GetAxis(_controlHorizontal) * _speed;
         Vector2 playerVelocity = new Vector2(_deltaX, Rigidbody2D.velocity.y);
@@ -57,15 +69,12 @@ public class Human : MonoBehaviour
     protected void VerticalMovement()
     {
         GroundCollisionDetection();
-        if (Input.GetButton("Fire2") && isGrounded)
-        {
-            Rigidbody2D.AddForce(Vector2.up * (_jumpForce * 10));
-        }
+        if (_isGrounded) Rigidbody2D.AddForce(Vector2.up * (_jumpForce * 2), ForceMode2D.Impulse);
     }
 
     protected void GroundCollisionDetection()
     {
-        isGrounded = Physics2D.Raycast(transform.position + colliderOffset, Vector3.down, _gizmosLength, _groundMask);
+        _isGrounded = Physics2D.Raycast(transform.position + colliderOffset, Vector3.down, _gizmosLength, _groundMask);
     }
 
     private void OnDrawGizmos()
