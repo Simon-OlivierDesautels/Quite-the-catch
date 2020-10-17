@@ -116,6 +116,21 @@ TextureImporter:
   - first:
       213: -6313999932758737188
     second: Run15
+  - first:
+      213: 5659957894551709091
+    second: Jump0
+  - first:
+      213: -8806803420924819357
+    second: Jump2
+  - first:
+      213: 7770808988906863378
+    second: Landing0
+  - first:
+      213: 1382778426101196658
+    second: Landing2
+  - first:
+      213: -2345549986181147539
+    second: Landing4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -192,7 +207,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2472
+        y: 2544
         width: 444
         height: 636
       alignment: 0
@@ -213,7 +228,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 444
-        y: 2472
+        y: 2544
         width: 444
         height: 636
       alignment: 0
@@ -234,7 +249,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 888
-        y: 2472
+        y: 2544
         width: 444
         height: 636
       alignment: 0
@@ -251,11 +266,116 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run1
+      name: Jump0
       rect:
         serializedVersion: 2
         x: 1332
-        y: 2472
+        y: 2544
+        width: 444
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a52c64a7b53c8e40800000000000000
+      internalID: 5659957894551709091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump2
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2544
+        width: 444
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c419f2f2f7c580800000000000000
+      internalID: -8806803420924819357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing0
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2544
+        width: 444
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bb4399a9577db60800000000000000
+      internalID: 7770808988906863378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing2
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2544
+        width: 444
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277e5daf6ad903310800000000000000
+      internalID: 1382778426101196658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1908
+        width: 444
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6410cef6bee27fd0800000000000000
+      internalID: -2345549986181147539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run1
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -275,8 +395,8 @@ TextureImporter:
       name: Run3
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 2472
+        x: 888
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -296,8 +416,8 @@ TextureImporter:
       name: Run5
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 2472
+        x: 1332
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -317,8 +437,8 @@ TextureImporter:
       name: Run7
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 2472
+        x: 1776
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -338,8 +458,8 @@ TextureImporter:
       name: Run9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1836
+        x: 2220
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -359,8 +479,8 @@ TextureImporter:
       name: Run11
       rect:
         serializedVersion: 2
-        x: 444
-        y: 1836
+        x: 2664
+        y: 1908
         width: 444
         height: 636
       alignment: 0
@@ -380,8 +500,8 @@ TextureImporter:
       name: Run13
       rect:
         serializedVersion: 2
-        x: 888
-        y: 1836
+        x: 0
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -401,8 +521,8 @@ TextureImporter:
       name: Run15
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 1836
+        x: 444
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -422,8 +542,8 @@ TextureImporter:
       name: Walk0
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 1836
+        x: 888
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -443,8 +563,8 @@ TextureImporter:
       name: Walk1
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 1836
+        x: 1332
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -464,8 +584,8 @@ TextureImporter:
       name: Walk2
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 1836
+        x: 1776
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -485,8 +605,8 @@ TextureImporter:
       name: Walk3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1200
+        x: 2220
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -506,8 +626,8 @@ TextureImporter:
       name: Walk4
       rect:
         serializedVersion: 2
-        x: 444
-        y: 1200
+        x: 2664
+        y: 1272
         width: 444
         height: 636
       alignment: 0
@@ -527,8 +647,8 @@ TextureImporter:
       name: Walk5
       rect:
         serializedVersion: 2
-        x: 888
-        y: 1200
+        x: 0
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -548,8 +668,8 @@ TextureImporter:
       name: Walk6
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 1200
+        x: 444
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -569,8 +689,8 @@ TextureImporter:
       name: Walk7
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 1200
+        x: 888
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -590,8 +710,8 @@ TextureImporter:
       name: Walk8
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 1200
+        x: 1332
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -611,8 +731,8 @@ TextureImporter:
       name: Walk9
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 1200
+        x: 1776
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -632,8 +752,8 @@ TextureImporter:
       name: Walk10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 564
+        x: 2220
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -653,8 +773,8 @@ TextureImporter:
       name: Walk11
       rect:
         serializedVersion: 2
-        x: 444
-        y: 564
+        x: 2664
+        y: 636
         width: 444
         height: 636
       alignment: 0
@@ -674,8 +794,8 @@ TextureImporter:
       name: Walk12
       rect:
         serializedVersion: 2
-        x: 888
-        y: 564
+        x: 0
+        y: 0
         width: 444
         height: 636
       alignment: 0
@@ -695,8 +815,8 @@ TextureImporter:
       name: Walk13
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 564
+        x: 444
+        y: 0
         width: 444
         height: 636
       alignment: 0
@@ -716,8 +836,8 @@ TextureImporter:
       name: Walk14
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 564
+        x: 888
+        y: 0
         width: 444
         height: 636
       alignment: 0
@@ -737,8 +857,8 @@ TextureImporter:
       name: Walk15
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 564
+        x: 1332
+        y: 0
         width: 444
         height: 636
       alignment: 0
