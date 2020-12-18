@@ -22,9 +22,6 @@
                 <e p="PlayerInputActions.cs" t="Include" />
               </e>
               <e p="Movement" t="Include">
-                <e p="CoopInput" t="Include">
-                  <e p="CoopInputManager.cs" t="Include" />
-                </e>
                 <e p="PlayerCollision.cs" t="Include" />
                 <e p="PlayerMovement.cs" t="Include" />
               </e>

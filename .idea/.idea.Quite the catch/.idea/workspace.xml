@@ -88,7 +88,6 @@
         <option value="$PROJECT_DIR$/Assets/PlayersScore.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerInput2.cs" />
         <option value="$PROJECT_DIR$/Assets/Net.cs" />
@@ -98,6 +97,7 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" />
       </list>
     </option>
   </component>
@@ -183,6 +183,7 @@
       <workItem from="1608129569546" duration="1245000" />
       <workItem from="1608132507561" duration="1217000" />
       <workItem from="1608135772911" duration="4582000" />
+      <workItem from="1608331575809" duration="524000" />
     </task>
     <servers />
   </component>
