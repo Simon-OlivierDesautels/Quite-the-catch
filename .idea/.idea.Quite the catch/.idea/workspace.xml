@@ -57,7 +57,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/LoadNextScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../2-Unity Course 2d/Tilevania/Tilevania/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" root0="FORCE_HIGHLIGHTING" />
@@ -183,7 +182,7 @@
       <workItem from="1608129569546" duration="1245000" />
       <workItem from="1608132507561" duration="1217000" />
       <workItem from="1608135772911" duration="4582000" />
-      <workItem from="1608331575809" duration="524000" />
+      <workItem from="1608331575809" duration="752000" />
     </task>
     <servers />
   </component>
