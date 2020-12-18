@@ -5,19 +5,31 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "CoopInputManager")]
 public class CoopInputManager : ScriptableObject
 {
+    List<Input> inputList = new List<Input>();
     private enum Input
     {
         HorizontalP0,
         HorizontalP1,
+        Fire1,
         Fire2P0,
         Fire2P1
     }
     
     [SerializeField] private Input _controlHorizontal;
+    [SerializeField] private Input _fire1Input;
     [SerializeField] private Input _fire2Input;
+    
 
-    private List<String> _inputStringList;
+    [SerializeField] private List<String> _inputStringList = new List<string>();
 
+    
+
+    public void ClearList()
+    {
+        _inputStringList = new List<string>();
+        _inputStringList.Clear();
+        Debug.Log(_inputStringList.Count);
+    }
     public List<String> ReturnInputs()
     {
         GroupInputs();
@@ -26,8 +38,8 @@ public class CoopInputManager : ScriptableObject
     
     public void GroupInputs()
     {
-        List<Input> inputList = new List<Input>();
         inputList.Add(_controlHorizontal);
+        inputList.Add(_fire1Input);
         inputList.Add(_fire2Input);
         StringifyInput(inputList);
     }

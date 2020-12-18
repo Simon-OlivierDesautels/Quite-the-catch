@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f3814f-3bc6-45a6-b28e-282d073674bd" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="22f3814f-3bc6-45a6-b28e-282d073674bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quite the catch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Anim0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Anim0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Run1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Run1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Tommy.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Tommy.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Animations/Player/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.tpsheet" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Graphics/Sprites/Tommy/Tommy.tpsheet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/Player1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/Player1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,17 +39,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/TommyAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../PlayerAnimation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Color Space/Assets/Scripts/UI/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/df/86ba892b/ISerializationCallbackReceiver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Color Space/Assets/Scripts/Game Status/GameEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayersScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Net.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/EnemyPathing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/WaveConfig.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/EnemySpawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/InputSystem_Warriors-master/InputSystem_Warriors_Project/Assets/Scripts/Behaviours/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/LoadNextScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../2-Unity Course 2d/Tilevania/Tilevania/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,56 +69,83 @@
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/TommyAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/CoopInputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/TommyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationKey.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/KeyDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/LoadNextScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/SplashScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/KeyBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/RootBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayersScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerInput2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Net.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iVoYUfxWmpdVUNzUB5O9g8fWLG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Properties" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/qtc\Dog Escape.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\simon\Desktop\qtc" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,11 +169,25 @@
       <workItem from="1602811703317" duration="599000" />
       <workItem from="1602848844999" duration="7895000" />
       <workItem from="1602859002059" duration="14689000" />
+      <workItem from="1602931615098" duration="2771000" />
+      <workItem from="1603459889621" duration="2358000" />
+      <workItem from="1604274706815" duration="8630000" />
+      <workItem from="1604330699281" duration="2003000" />
+      <workItem from="1605806940778" duration="2189000" />
+      <workItem from="1607809266489" duration="6328000" />
+      <workItem from="1607899290399" duration="4000" />
+      <workItem from="1607899472529" duration="10641000" />
+      <workItem from="1607964494844" duration="17508000" />
+      <workItem from="1608000109135" duration="661000" />
+      <workItem from="1608067773904" duration="14579000" />
+      <workItem from="1608129569546" duration="1245000" />
+      <workItem from="1608132507561" duration="1217000" />
+      <workItem from="1608135772911" duration="4582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -117,16 +196,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1607814269354">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1607814269354" />
+    <state x="1168" y="170" key="SettingsEditor" timestamp="1607809599970">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1168" y="170" key="SettingsEditor/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1607809599970" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608129688202">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608129688202" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

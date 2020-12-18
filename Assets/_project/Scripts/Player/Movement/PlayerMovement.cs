@@ -6,10 +6,10 @@ public class PlayerMovement : MonoBehaviour
     private Human ParentClass;
     [SerializeField] [Range(0, 10)] int _walkSpeed;
     [SerializeField] [Range(0, 10)] int _runSpeed;
-    [SerializeField] [Range(0, 10)] int _jumpForce;
+    [SerializeField] [Range(0, 20)] int _jumpForce;
 
     private int _movementSpeed;
-    
+
     private void Start()
     {
         ParentClass = GetComponent<Human>();
@@ -17,17 +17,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void HorizontalMovement()
     {
-        Vector2 playerVelocity = new Vector2(ParentClass.PlayerAxis * _movementSpeed, ParentClass.Rigidbody2D.velocity.y);
+        Vector2 playerVelocity =
+            new Vector2(ParentClass.PlayerAxis * _movementSpeed, ParentClass.Rigidbody2D.velocity.y);
         ParentClass.Rigidbody2D.velocity = playerVelocity;
     }
 
-    private void VerticalMovement()
+    public void VerticalMovement()
     {
-        if (ParentClass.PlayerJumping)
-        {
-            ParentClass.Rigidbody2D.AddForce(Vector2.up * (_jumpForce * 2), ForceMode2D.Impulse);
-            ParentClass.PlayerJumping = false;
-        }
+        if (!ParentClass.PlayerGrounded) return;
+        ParentClass.Rigidbody2D.AddForce(Vector2.up * (_jumpForce * 2), ForceMode2D.Impulse);
+        ParentClass.PlayerJumping = false;
     }
 
     private void Update()
@@ -38,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         HorizontalMovement();
-        VerticalMovement();
     }
 
     private void SpeedCalculations()

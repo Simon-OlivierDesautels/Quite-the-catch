@@ -13,4 +13,12 @@ MonoBehaviour:
   m_Name: Player1
   m_EditorClassIdentifier: 
   _controlHorizontal: 0
-  _fire2Input: 2
+  _fire1Input: 2
+  _fire2Input: 3
+  _inputStringList:
+  - HorizontalP0
+  - HorizontalP0
+  - HorizontalP0
+  - HorizontalP0
+  - Fire1
+  - Fire2P0
