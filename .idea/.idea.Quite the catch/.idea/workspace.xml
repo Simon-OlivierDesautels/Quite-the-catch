@@ -47,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/EnemyPathing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/WaveConfig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/State Machine/Jump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/EnemySpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/InputSystem_Warriors-master/InputSystem_Warriors_Project/Assets/Scripts/Behaviours/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,21 +77,29 @@
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/KeyBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/RootBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayersScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerInput2.cs" />
         <option value="$PROJECT_DIR$/Assets/Net.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/CoopInput/CoopInputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/InputReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/Stat.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/Jump.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/SubBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Inputs/InputReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Inputs/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/PlayerStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -177,6 +186,8 @@
       <workItem from="1608132507561" duration="1217000" />
       <workItem from="1608135772911" duration="4582000" />
       <workItem from="1608331575809" duration="752000" />
+      <workItem from="1608419822115" duration="12325000" />
+      <workItem from="1608478291163" duration="1370000" />
     </task>
     <servers />
   </component>
@@ -201,18 +212,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1607814269354">
+    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1608421208529">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1607814269354" />
+    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608421208529" />
     <state x="1168" y="170" key="SettingsEditor" timestamp="1607809599970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1168" y="170" key="SettingsEditor/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1607809599970" />
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608129688202">
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608428409119">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608129688202" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608428409119" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

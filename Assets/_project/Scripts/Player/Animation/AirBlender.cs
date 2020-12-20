@@ -3,30 +3,30 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using _project.Scripts.Player.Animation;
 using UnityEngine;
 
 public class AirBlender : AnimationBlender
 {
-    private Dictionary<AnimationClip, string> _animations = new Dictionary<AnimationClip, string>();
-
+    [SerializeField] private List<AnimationClip> animationClips = new List<AnimationClip>();
     private void Start()
     {
-        foreach (var animation in animationClips)
+        foreach (var animationClip in animationClips)
         {
-            _animations.Add(animation, animation.name);
+            _animations.Add(animationClip, animationClip.name);
         }
     }
 
     private void Update()
     {
-        VerticalMovementAnimation();
+     //   VerticalMovementAnimation();
         ParentClass.AgainstWind();
     }
 
     private void VerticalMovementAnimation()
     {
         Catch();
-        if (ParentClass.PlayerCatching) return;
+   
         Jump();
         Land();
     }
@@ -48,7 +48,7 @@ public class AirBlender : AnimationBlender
     
     private void Catch()
     {
-        if (!ParentClass.PlayerCatching) return;
+    //    if (!ParentClass.PlayerCatching) return;
         PlayAnimation(MethodBase.GetCurrentMethod().Name);
         if (!RootBlender.EndOfTrigger) StartCoroutine(StopCatching());
     }
@@ -60,7 +60,7 @@ public class AirBlender : AnimationBlender
         float delay = Animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(delay);
         RootBlender.EndOfTrigger = false;
-        ParentClass.PlayerCatching = false;
+     //   ParentClass.PlayerCatching = false;
     }
 
     private void PlayAnimation(string methodName)
@@ -75,10 +75,10 @@ public class AirBlender : AnimationBlender
 
     private void OnDisable()
     {
-        if (ParentClass.PlayerCatching)
+   //     if (ParentClass.PlayerCatching)
         {
             RootBlender.EndOfTrigger = false;
-            ParentClass.PlayerCatching = false;
+     //       ParentClass.PlayerCatching = false;
         }
     }
 }

@@ -1,20 +1,21 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationBlender : MonoBehaviour
+namespace _project.Scripts.Player.Animation
 {
-    protected Human ParentClass;
-    protected Animator Animator;
-    protected RootBlender RootBlender;
-    [SerializeField] protected List<AnimationClip> animationClips = new List<AnimationClip>();
-    
-
-    void Awake()
+    public class AnimationBlender : MonoBehaviour
     {
-        ParentClass = GetComponent<Human>();
-        Animator = GetComponent<Animator>();
-        RootBlender = GetComponent<RootBlender>();
+        protected Human ParentClass;
+        protected Animator Animator;
+        protected RootBlender RootBlender;
+        protected Dictionary<AnimationClip, string> _animations = new Dictionary<AnimationClip, string>();
+        protected bool FlowPending;
+        
+        void Awake()
+        {
+            ParentClass = GetComponent<Human>();
+            Animator = GetComponent<Animator>();
+            RootBlender = GetComponent<RootBlender>();
+        }
     }
-
-
 }

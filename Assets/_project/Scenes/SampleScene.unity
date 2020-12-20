@@ -2523,10 +2523,6 @@ GameObject:
   - component: {fileID: 2044874219}
   - component: {fileID: 2044874217}
   - component: {fileID: 2044874216}
-  - component: {fileID: 2044874223}
-  - component: {fileID: 2044874224}
-  - component: {fileID: 2044874225}
-  - component: {fileID: 2044874226}
   - component: {fileID: 2044874218}
   - component: {fileID: 2044874215}
   - component: {fileID: 2044874214}
@@ -2645,9 +2641,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2044874226}
-        m_MethodName: Move
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
+        m_MethodName: OnMove
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2660,9 +2656,9 @@ MonoBehaviour:
     m_ActionName: Player Controls/Movement[/DualShock4GamepadHID/dpad/left,/DualShock4GamepadHID/dpad/right,/Keyboard/a,/Keyboard/d,/DualShock4GamepadHID/leftStick/left,/DualShock4GamepadHID/leftStick/right]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2044874226}
-        m_MethodName: Catch
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
+        m_MethodName: OnCatch
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2675,8 +2671,8 @@ MonoBehaviour:
     m_ActionName: Player Controls/Catch[/Keyboard/leftShift,/DualShock4GamepadHID/buttonWest]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2044874226}
-        m_MethodName: Jump
+      - m_Target: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
+        m_MethodName: OnJump
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2690,8 +2686,8 @@ MonoBehaviour:
     m_ActionName: Player Controls/Jump[/DualShock4GamepadHID/buttonSouth,/Keyboard/space]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2044874226}
-        m_MethodName: OnpPause
+      - m_Target: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2709,7 +2705,7 @@ MonoBehaviour:
     m_ActionName: Menu Controls/Submit
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2044874226}
+      - m_Target: {fileID: 0}
         m_MethodName: OnpPause
         m_Mode: 0
         m_Arguments:
@@ -2739,8 +2735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bcca5bd36b209e4196b92f03892a732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FacingRight: 0
-  PlayerCatching: 0
+  _inputReader: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
 --- !u!95 &2044874220
 Animator:
   serializedVersion: 3
@@ -2825,62 +2820,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2044874223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044874213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 014960df889f84949bc9ab24262f7cdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2044874224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044874213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79dbc0cef017e644b145dc2a5008361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationClips:
-  - {fileID: 7400000, guid: c2ba6da4fa9711f4caacfd0b9b750cda, type: 2}
-  - {fileID: 7400000, guid: 6ed119aa341c2fc4bb38a1b44c908716, type: 2}
-  - {fileID: 7400000, guid: ec0f8cd8c752255498375348f75d5001, type: 2}
-  - {fileID: 7400000, guid: 91b20578ab063ba4f8dd346240361ba9, type: 2}
-  _runningSpeed: 0.7
---- !u!114 &2044874225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044874213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d585f0f36a5be9c4fb56a652e2443709, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationClips:
-  - {fileID: 7400000, guid: c2ba6da4fa9711f4caacfd0b9b750cda, type: 2}
-  - {fileID: 7400000, guid: b9545c49e614d6147a30f687c44e45cf, type: 2}
-  - {fileID: 7400000, guid: 4eee07a7ff6163b4cb6c80d10fe0989e, type: 2}
---- !u!114 &2044874226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044874213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c473051e66c6e646bb71c988c092b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInput: {fileID: 2044874218}

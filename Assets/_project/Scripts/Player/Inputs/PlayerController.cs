@@ -21,12 +21,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         _playerInputActions = new PlayerInputActions();
-
-        // _playerInputActions.PlayerControls.Jump.performed += context => Jump();
-        // _playerInputActions.PlayerControls.Movement.performed += context => Move();
-        // _playerInputActions.PlayerControls.Catch.performed += context => Catch();
-
-
         _parentClass = GetComponent<Human>();
         _playerMovement = GetComponent<PlayerMovement>();
     }
@@ -43,7 +37,7 @@ public class PlayerController : MonoBehaviour
     }
     public void Catch()
     {
-        _parentClass.PlayerCatching = true;
+      
     }
     public void OnpPause(InputAction.CallbackContext value)
     {

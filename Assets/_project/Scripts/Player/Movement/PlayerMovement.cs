@@ -1,4 +1,5 @@
 ﻿using System;
+using _project.Scripts;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerVelocity =
             new Vector2(ParentClass.PlayerAxis * _movementSpeed, ParentClass.Rigidbody2D.velocity.y);
         ParentClass.Rigidbody2D.velocity = playerVelocity;
+ //       Animator.SetFloat("PlayerAxis", ParentClass.PlayerAxis);
     }
 
     public void VerticalMovement()
@@ -44,4 +46,6 @@ public class PlayerMovement : MonoBehaviour
         if (ParentClass.PlayerRunning) _movementSpeed = _runSpeed;
         else _movementSpeed = _walkSpeed;
     }
+    
+
 }
