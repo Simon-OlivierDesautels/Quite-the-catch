@@ -2,7 +2,7 @@
 using _project.Scripts;
 using UnityEngine;
 
-public class Human : PlayerStateMachine
+public class Human : FiniteStateMachine
 {
     [SerializeField] private InputReader _inputReader;
 

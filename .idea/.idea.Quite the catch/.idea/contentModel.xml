@@ -46,8 +46,8 @@
             </e>
             <e p="Singleton.cs" t="Include" />
             <e p="State Machine" t="Include">
-              <e p="Jump.cs" t="Include" />
-              <e p="PlayerStateMachine.cs" t="Include" />
+              <e p="FiniteStateMachine.cs" t="Include" />
+              <e p="JumpState.cs" t="Include" />
               <e p="State.cs" t="Include" />
             </e>
             <e p="UI" t="Include">

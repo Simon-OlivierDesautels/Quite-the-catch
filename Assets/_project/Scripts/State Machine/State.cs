@@ -3,20 +3,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class State : MonoBehaviour
+public enum StateType
 {
-    public virtual IEnumerator Start()
+    Idle,
+    Walk,
+    Run,
+    Jump,
+    Land
+}
+
+
+public abstract class State : ScriptableObject
+{
+    protected FiniteStateMachine fsm;
+    protected StateType _stateType;
+    
+    
+    public virtual void OnEntering()
     {
-        yield break;
+        
     }
 
-    public virtual IEnumerator Catching()
+    public abstract void UpdateState();
+
+    
+    #region -Setters-
+
+    public void SetStateMachine(FiniteStateMachine stateMachine)
     {
-        yield break;
+        fsm = stateMachine;
     }
 
-    public virtual IEnumerator Jumping()
-    {
-        yield break;
-    }
+    #endregion
+    
 }
