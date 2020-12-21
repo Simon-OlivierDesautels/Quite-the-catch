@@ -1,15 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "JumpState", menuName = "FSM/States", order = 4)]
+[CreateAssetMenu(fileName = "JumpState", menuName = "FSM/States/Jump", order = 4)]
 
 public class JumpState : State
 {
-   private void Start()
+   public override void OnStart()
    {
       _stateType = StateType.Jump;
+      fsm.HumanP.Animator.Play("Catch");
    }
+   
    public override void OnEntering()
    {
       
@@ -17,6 +17,6 @@ public class JumpState : State
    
    public override void UpdateState()
    {
-      Debug.Log("Jump");
+     
    }
 }

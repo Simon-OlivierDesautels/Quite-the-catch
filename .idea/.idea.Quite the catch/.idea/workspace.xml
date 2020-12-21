@@ -95,12 +95,14 @@
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/PlayerStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/TommysConditions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/Conditions.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/FiniteStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/JumpState.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/State.cs" />
       </list>
     </option>
   </component>
@@ -189,7 +191,7 @@
       <workItem from="1608331575809" duration="752000" />
       <workItem from="1608419822115" duration="12325000" />
       <workItem from="1608478291163" duration="1370000" />
-      <workItem from="1608579015768" duration="2536000" />
+      <workItem from="1608579015768" duration="6855000" />
     </task>
     <servers />
   </component>
@@ -214,10 +216,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1608421208529">
+    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1608583409795">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608421208529" />
+    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608583409795" />
     <state x="1168" y="170" key="SettingsEditor" timestamp="1607809599970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

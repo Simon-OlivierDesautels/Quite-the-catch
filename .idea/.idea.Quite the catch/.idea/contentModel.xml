@@ -46,9 +46,11 @@
             </e>
             <e p="Singleton.cs" t="Include" />
             <e p="State Machine" t="Include">
+              <e p="Conditions.cs" t="Include" />
               <e p="FiniteStateMachine.cs" t="Include" />
               <e p="JumpState.cs" t="Include" />
               <e p="State.cs" t="Include" />
+              <e p="TommysConditions.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
               <e p="PauseMenu.cs" t="Include" />

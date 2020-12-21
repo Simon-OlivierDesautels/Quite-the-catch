@@ -2,7 +2,9 @@
 using _project.Scripts;
 using UnityEngine;
 
-public class Human : FiniteStateMachine
+[RequireComponent(typeof(FiniteStateMachine))]
+
+public class Human : MonoBehaviour
 {
     [SerializeField] private InputReader _inputReader;
 

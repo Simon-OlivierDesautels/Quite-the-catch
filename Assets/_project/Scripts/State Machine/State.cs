@@ -16,9 +16,10 @@ public enum StateType
 public abstract class State : ScriptableObject
 {
     protected FiniteStateMachine fsm;
-    protected StateType _stateType;
-    
-    
+    public StateType _stateType { get; protected set; }
+
+    public abstract void OnStart();
+ 
     public virtual void OnEntering()
     {
         
