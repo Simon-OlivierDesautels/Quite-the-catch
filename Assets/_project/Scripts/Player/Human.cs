@@ -1,12 +1,17 @@
 ﻿using System;
 using _project.Scripts;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(FiniteStateMachine))]
 
 public class Human : MonoBehaviour
 {
-    [SerializeField] private InputReader _inputReader;
+    [SerializeField] private InputReader inputReader;
+
+    public enum PlayerFacing {Left, Right}
+
+    public PlayerFacing CurrentDirection { get; set; }
 
     #region -Various states-
 
@@ -20,11 +25,15 @@ public class Human : MonoBehaviour
     
     public bool PlayerJumping { get; set; }
     
+    public bool CanJump{ get; set; }
+    
     public bool PlayerRunning { get; set; }
     
     public bool PlayerFalling { get; set; }
 
     public bool FacingRight  { get; set; }
+    public bool PlayerCatching  { get; set; }
+    public float PlayerWidth  { get; private set; }
 
     #endregion
 
@@ -42,6 +51,8 @@ public class Human : MonoBehaviour
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         _playerMovement = GetComponent<PlayerMovement>();
+        CanJump = true;
+        PlayerWidth = transform.localScale.x;
     }
 
     private void Update()
@@ -53,57 +64,71 @@ public class Human : MonoBehaviour
     {
         if (PlayerGrounded) PlayerFalling = false;
         if (PlayerFalling) Rigidbody2D.gravityScale = 12;
-        else Rigidbody2D.gravityScale = 4;
+        else Rigidbody2D.gravityScale = 6;
     }
 
     public void AgainstWind()
     {
-        if (!FacingRight)
+        switch (CurrentDirection)
         {
-            if (_playerAxis > 0) _isAgainstWind = true;
-            else if (_playerAxis < 0) _isAgainstWind = false;
-
-            if (_isAgainstWind) PlayerRunning = false;
-            else if (!_isAgainstWind) PlayerRunning = true;
+            case PlayerFacing.Left:
+                if (_playerAxis > 0) _isAgainstWind = true;
+                else if (_playerAxis < 0) _isAgainstWind = false;
+                break;
+            
+            case PlayerFacing.Right:
+                if (_playerAxis < 0) _isAgainstWind = true;
+                else if (_playerAxis > 0) _isAgainstWind = false;
+                break;
         }
-        else
-        {
-            if (_playerAxis > 0) _isAgainstWind = true;
-            else if (_playerAxis < 0) _isAgainstWind = false;
 
-            if (_isAgainstWind) PlayerRunning = true;
-            else if (!_isAgainstWind) PlayerRunning = false;
+        switch (_isAgainstWind)
+        {
+            case true :
+                PlayerRunning = false;
+                break;
+            case false:
+                PlayerRunning = true;
+                break;
         }
     }
 
+  
+
+    #region -On input-
     private void OnMove(float movement)
     {
         _playerAxis = movement;
     }
-    
     private void OnJump()
     {
+        if (!CanJump) return;
         _playerMovement.VerticalMovement();
     }
-
     private void OnCatch()
     {
-       
+        switch (PlayerGrounded)
+        {
+            case true : PlayerCatching = true;
+                break;
+        }
+        
     }
+    #endregion
     
     #region -Enable/disable-
     
     private void OnEnable()
     {
-        _inputReader.JumpEvent += OnJump;
-        _inputReader.MoveEvent += OnMove;
-        _inputReader.CatchEvent += OnCatch;
+        inputReader.JumpEvent += OnJump;
+        inputReader.MoveEvent += OnMove;
+        inputReader.CatchEvent += OnCatch;
     }
     private void OnDisable()
     {
-        _inputReader.JumpEvent -= OnJump;
-        _inputReader.MoveEvent -= OnMove;
-        _inputReader.CatchEvent -= OnCatch;
+        inputReader.JumpEvent -= OnJump;
+        inputReader.MoveEvent -= OnMove;
+        inputReader.CatchEvent -= OnCatch;
     }
     
     #endregion

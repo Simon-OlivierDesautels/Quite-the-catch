@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e439b63d8244b6418c708a862d6bcea, type: 3}
-  m_Name: JumpState
+  m_Script: {fileID: 11500000, guid: 36fa6f3ec95db98448abaf91c34ec1c7, type: 3}
+  m_Name: Land
   m_EditorClassIdentifier: 

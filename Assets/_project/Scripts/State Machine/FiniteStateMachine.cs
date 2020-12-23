@@ -7,16 +7,17 @@ using UnityEngine.Serialization;
 
 public class FiniteStateMachine : MonoBehaviour
 {
+    [Header("States")]
     [SerializeField] private State[] validStates;
+    
+    [Header("Conditions")]
     [SerializeField] private Conditions conditions;
 
-    [SerializeField] private State _currentState;
+     private State _currentState;
+     private State _nextState;
 
     public Human HumanP { get; private set; }
-
-
-    private State _nextState;
-
+    
     private void Start()
     {
     
@@ -33,6 +34,7 @@ public class FiniteStateMachine : MonoBehaviour
 
     private void Update()
     {
+        
         if (_currentState == _nextState)
         {
             _currentState.UpdateState();
@@ -54,15 +56,13 @@ public class FiniteStateMachine : MonoBehaviour
     public void DefineState(StateType stateType)
     {
         StateType nextStateType = stateType;
-
+        
         foreach (var state in validStates)
         {
             if (state._stateType == nextStateType)
             {
-                Debug.Log(state);
                 _nextState = state;
             }
-            else return;
         }
 
         SetState(_nextState);
@@ -71,5 +71,20 @@ public class FiniteStateMachine : MonoBehaviour
     private void DefineConditionsParent()
     {
         if (GetComponent<Human>()) HumanP = GetComponent<Human>();
+    }
+
+    public void LockState(string stateLocked)
+    {
+        StartCoroutine(stateLocked);
+    }
+    
+    IEnumerator LockCatch()
+    {
+        HumanP.CanJump = false;
+        yield return new WaitForSeconds(0.00000000001f);
+        float delay = HumanP.Animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(delay);
+        HumanP.CanJump = true;
+        HumanP.PlayerCatching = false;
     }
 }

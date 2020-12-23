@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 996e507de4720f64b86a56f25f3df255, type: 3}
-  m_Name: TommysConditions
+  m_Script: {fileID: 11500000, guid: 0e439b63d8244b6418c708a862d6bcea, type: 3}
+  m_Name: Jump
   m_EditorClassIdentifier: 
-  runSpeed: 0.7

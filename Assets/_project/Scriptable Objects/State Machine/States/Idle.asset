@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 996e507de4720f64b86a56f25f3df255, type: 3}
-  m_Name: TommysConditions
+  m_Script: {fileID: 11500000, guid: f2fee3a1dba24b547bedf072734c9933, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  runSpeed: 0.7

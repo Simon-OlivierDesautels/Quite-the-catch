@@ -41,6 +41,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Color Space/Assets/Scripts/UI/Score.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/df/86ba892b/ISerializationCallbackReceiver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/IdleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Color Space/Assets/Scripts/Game Status/GameEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,16 +51,16 @@
     <setting file="file://$PROJECT_DIR$/../../../1-Jeux/Laser defender/Version control/Version.0.1.1/Assets/Scripts/Enemies/Wave management/EnemySpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/InputSystem_Warriors-master/InputSystem_Warriors_Project/Assets/Scripts/Behaviours/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/WalkState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../2-Unity Course 2d/Tilevania/Tilevania/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/LandState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/codeandweb.com/Readme.txt" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerMovement.cs" />
@@ -73,7 +74,6 @@
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/KeyDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/LoadNextScene.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/SceneManagers/SplashScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/KeyBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/RootBlender.cs" />
@@ -92,17 +92,26 @@
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/SubBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Inputs/InputReader.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Inputs/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AnimationBlender.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/PlayerStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/TommysConditions.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/Conditions.cs" />
-        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/FiniteStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/JumpState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/JumpState1.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/WalkState1.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/RunState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/IdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/WalkState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Movement/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/FiniteStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/AirBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Animation/GroundBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/CatchState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/JumpState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/States/LandState.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/State Machine/TommysConditions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_project/Scripts/Player/Human.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +200,8 @@
       <workItem from="1608331575809" duration="752000" />
       <workItem from="1608419822115" duration="12325000" />
       <workItem from="1608478291163" duration="1370000" />
-      <workItem from="1608579015768" duration="6855000" />
+      <workItem from="1608579015768" duration="7650000" />
+      <workItem from="1608660177219" duration="9470000" />
     </task>
     <servers />
   </component>
@@ -216,18 +226,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1608583409795">
+    <state x="1169" y="244" key="RiderGenerateDialog" timestamp="1608667748487">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608583409795" />
-    <state x="1168" y="170" key="SettingsEditor" timestamp="1607809599970">
+    <state x="1169" y="244" key="RiderGenerateDialog/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608667748487" />
+    <state x="1168" y="170" key="SettingsEditor" timestamp="1608662917714">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1168" y="170" key="SettingsEditor/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1607809599970" />
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608428409119">
+    <state x="1168" y="170" key="SettingsEditor/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608662917714" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608664358896">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608428409119" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/360.1080.1920.1040@0.0.2560.1040" timestamp="1608664358896" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

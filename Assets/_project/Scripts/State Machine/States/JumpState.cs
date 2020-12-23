@@ -7,16 +7,16 @@ public class JumpState : State
    public override void OnStart()
    {
       _stateType = StateType.Jump;
-      fsm.HumanP.Animator.Play("Catch");
    }
    
    public override void OnEntering()
    {
-      
+      fsm.HumanP.Animator.Play("Jump");
+      if(!fsm.HumanP.PlayerRunning) fsm.HumanP.PlayerRunning = true;
    }
    
    public override void UpdateState()
    {
-     
+      fsm.HumanP.AgainstWind();
    }
 }

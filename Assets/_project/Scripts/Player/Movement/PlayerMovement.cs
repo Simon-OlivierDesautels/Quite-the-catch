@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerVelocity =
             new Vector2(ParentClass.PlayerAxis * _movementSpeed, ParentClass.Rigidbody2D.velocity.y);
         ParentClass.Rigidbody2D.velocity = playerVelocity;
- //       Animator.SetFloat("PlayerAxis", ParentClass.PlayerAxis);
     }
 
     public void VerticalMovement()

@@ -9,7 +9,8 @@ public enum StateType
     Walk,
     Run,
     Jump,
-    Land
+    Land,
+    Catch
 }
 
 

@@ -15,6 +15,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void Update()
     {
+        if (!ParentClass.CanJump) ParentClass.PlayerJumping = false;
         GroundCollisionDetection();
     }
 

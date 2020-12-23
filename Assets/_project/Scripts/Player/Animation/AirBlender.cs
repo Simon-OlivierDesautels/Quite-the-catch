@@ -20,13 +20,11 @@ public class AirBlender : AnimationBlender
     private void Update()
     {
      //   VerticalMovementAnimation();
-        ParentClass.AgainstWind();
     }
 
     private void VerticalMovementAnimation()
     {
         Catch();
-   
         Jump();
         Land();
     }

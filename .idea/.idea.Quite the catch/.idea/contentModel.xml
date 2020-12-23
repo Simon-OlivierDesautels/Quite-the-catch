@@ -48,8 +48,15 @@
             <e p="State Machine" t="Include">
               <e p="Conditions.cs" t="Include" />
               <e p="FiniteStateMachine.cs" t="Include" />
-              <e p="JumpState.cs" t="Include" />
               <e p="State.cs" t="Include" />
+              <e p="States" t="Include">
+                <e p="CatchState.cs" t="Include" />
+                <e p="IdleState.cs" t="Include" />
+                <e p="JumpState.cs" t="Include" />
+                <e p="LandState.cs" t="Include" />
+                <e p="RunState.cs" t="Include" />
+                <e p="WalkState.cs" t="Include" />
+              </e>
               <e p="TommysConditions.cs" t="Include" />
             </e>
             <e p="UI" t="Include">

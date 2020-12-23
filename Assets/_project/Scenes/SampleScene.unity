@@ -2523,10 +2523,11 @@ GameObject:
   - component: {fileID: 2044874219}
   - component: {fileID: 2044874217}
   - component: {fileID: 2044874216}
-  - component: {fileID: 2044874218}
+  - component: {fileID: 2044874223}
   - component: {fileID: 2044874215}
   - component: {fileID: 2044874214}
   - component: {fileID: 2044874220}
+  - component: {fileID: 2044874218}
   m_Layer: 0
   m_Name: Tommy
   m_TagString: Untagged
@@ -2574,7 +2575,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 2.01
   m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2610,9 +2611,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 563cf77959cd6244db2697d62ff503cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _walkSpeed: 5
+  _walkSpeed: 3
   _runSpeed: 10
-  _jumpForce: 13
+  _jumpForce: 16
 --- !u!114 &2044874218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,7 +2736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bcca5bd36b209e4196b92f03892a732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inputReader: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
+  inputReader: {fileID: 11400000, guid: a6ffe732d4b1d18439522d097c5f873e, type: 2}
 --- !u!95 &2044874220
 Animator:
   serializedVersion: 3
@@ -2813,10 +2814,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044874213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9, y: -0.63, z: 0}
+  m_LocalPosition: {x: 0.08, y: 3.33, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children:
   - {fileID: 1842567781}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044874223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044874213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b227822bf40c44e852519c2fa1f47c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  validStates:
+  - {fileID: 11400000, guid: dc2142c3dd6f2f94d94bebd8816e603c, type: 2}
+  - {fileID: 11400000, guid: 65e01345729898b40a445c6004337b6f, type: 2}
+  - {fileID: 11400000, guid: 709b8efa415b6744f8fe173aff8769bd, type: 2}
+  - {fileID: 11400000, guid: 2e2b103bd37e3c44baa3f7bc33a88a47, type: 2}
+  - {fileID: 11400000, guid: 216d486e2d349104c982727582c0a32b, type: 2}
+  - {fileID: 11400000, guid: ee65702a66519aa4a8e1ee1c41b24b0d, type: 2}
+  conditions: {fileID: 11400000, guid: 56e3328530758514db81f0ee3d6146c5, type: 2}

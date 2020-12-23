@@ -60,7 +60,6 @@ namespace _project.Scripts.Player.Animation
 
         private void Catch()
         {
-            ParentClass.AgainstWind();
             PlayAnimation(MethodBase.GetCurrentMethod().Name);
             StartCoroutine(StopCatching());
         }
